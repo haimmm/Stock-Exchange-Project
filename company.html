@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Search</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    
+</head>
+<body>
+    <!-- Filled by 'company.js' -->
+    <header>
+        <h1 id="companyName"></h1>
+        <div class="img-container">
+            <img id="companyImg" class="company-image hidden" src="" alt="logo">
+        </div>
+    </header>
+
+    <h2 id="companyPrice" class="price-title"></span></h2>
+
+    <p id= "companyDesc" class="description"></p>
+
+    <div>
+        <canvas id="stockChart"></canvas>
+    </div>
+
+    <script type="module" src="./scripts/company.js"></script>
+    <!-- CHARTS.JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

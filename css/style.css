@@ -1,0 +1,138 @@
+* {box-sizing: border-box;}
+
+.hidden{
+    visibility: hidden;
+}
+
+.negative{
+    color: red;
+}
+
+.positive{
+    color: rgb(5, 112, 5);
+}
+
+body{
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* MARQUEE */
+.marquee-container{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    /* border: 2px solid grey; */
+    opacity: 0.6;
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden; 
+}
+
+.marquee {
+    display: inline-block;
+    position: absolute;
+    min-width: 100%;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.item{
+    margin:0 25px;
+}
+
+  /* SEARCH */
+.search-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 50%;
+    height: 60px;
+    margin: 50px auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    background: rgb(248, 244, 244);
+    border-color: 1px solid grey;
+    border-bottom-width: 5px;
+}
+
+input:focus{
+    border-bottom-color:rgb(49, 113, 231);
+}
+
+input:focus{
+    outline: none;
+}
+
+ul{
+    margin: 30px;
+    list-style-type:none;
+}
+
+li{
+    font-size: 1.5rem;
+    margin: 25px 0;
+}
+
+.list-item-container{
+    display: flex;
+    align-items: center;
+}
+
+.symbol{
+    width: 10%;
+    margin-left: auto;
+    font-size: 1rem;
+    color:grey;
+}
+
+
+.list-image-container, .price-change{
+    width: 10%;
+    margin-left: 50px;
+    font-size: 1rem;
+}
+
+.list-image{
+    max-height: 40px;
+}
+
+
+/* COMPANY PAGE */
+header{
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container{
+    width: 10%;
+}
+
+.company-image{
+    width: 100%;
+    height: auto;
+}
+
+.price-title{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.description{
+    width: 70%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin: 50px 0;
+}
