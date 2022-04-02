@@ -1,4 +1,6 @@
 # Stock Exchange
+[DEMO](https://haimmm.github.io/Stock-Exchange-Project/)
+
 This is one of my first web projects and it made with only Vanilla js and lot's of love :)
 This project is basically a search engine for stocks.
 When the user types something in the search bar the website sends an API call using [this free stocks API](https://site.financialmodelingprep.com/developer/docs).
